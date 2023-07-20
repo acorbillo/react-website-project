@@ -1,0 +1,17 @@
+.hero-section {
+	height: calc(100vh - 15em);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	font-size: 1.2rem;
+	color: #efefef;
+}
+
+.hero-section > img {
+	max-width: 7rem;
+}
+
+.hero-section > div > h1 {
+	font-size: 5rem;
+}
